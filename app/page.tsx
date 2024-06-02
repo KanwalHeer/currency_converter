@@ -8,7 +8,19 @@ import Heading from '@/components/heading';
 import Container from '@/components/container';
 import CustomSelect from '@/components/select';
 
-const currencies = ["USD", "EUR", "PKR", "GBP", "JPY", "AUD", "CAD", "CHF", "CNY", "SEK", "NZD", "MXN", "SGD", "HKD", "NOK", "KRW", "TRY", "RUB", "INR"];
+const currencies = ["USD", "EUR", "PKR", "GBP", "JPY", "AUD", "CAD", "CHF", "CNY", "SEK", "NZD", 
+"MXN", "SGD", "HKD", "NOK", "KRW", "TRY", "RUB", "INR", "BRL", "ZAR", "MYR",
+"IDR", "PHP", "THB", "VND", "SAR", "PLN", "CZK", "HUF", "RON", "AED", "ILS",
+"CLP", "COP", "PEN", "ARS", "BGN", "HRK", "DKK", "ISK", "LKR", "MAD", "NGN",
+"TWD", "BDT", "UAH", "EGP", "JOD", "KWD", "OMR", "QAR", "BHD", "KES", "GHS",
+"TZS", "UGX", "BWP", "MUR", "NAD", "ETB", "BND", "NPR", "LBP", "PKR", "IRR",
+"IQD", "AFN", "ALL", "AMD", "AOA", "AZN", "BAM", "BBD", "BSD", "BZD", "BMD",
+"BOB", "BTN", "BWP", "BYN", "CDF", "CRC", "CUP", "DJF", "DOP", "DZD", "ERN",
+"FJD", "FKP", "GEL", "GIP", "GMD", "GTQ", "GYD", "HTG", "HNL", "JMD", "KYD",
+"LAK", "LSL", "LYD", "MKD", "MGA", "MOP", "MVR", "MWK", "MZN", "NAD", "NIO",
+"PAB", "PGK", "PYG", "RSD", "RWF", "SBD", "SCR", "SHP", "SLL", "SOP", "SRD",
+"STD", "SYP", "SZL", "TJS", "TMT", "TOP", "TTD", "TVD", "UYU", "UZS", "VUV",
+"WST", "XAF", "XCD", "XOF", "XPF", "YER", "ZMW", "ZWL"];
 
 const Home = () => {
   const [baseCurrency, setBaseCurrency] = useState('USD');
